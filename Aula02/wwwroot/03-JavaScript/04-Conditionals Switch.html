@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>03 Condicional IF</title>
+</head>
+<body>
+
+    <label>Selecione o Bi-campe�o Mundial</label>
+
+    <select id="ddlTime">
+        <option value="">Selecione...</option>
+        <option value="1">Corinthians...</option>
+        <option value="2">S�o Paulo...</option>
+        <option value="3">Guarani...</option>
+        <option value="4">Ponte Preta...</option>
+    </select>
+
+    <button id="btnValidar">Validar</button>
+
+    <div id="saida"></div>
+    
+
+    <script>
+        let btn = document.querySelector(`#btnValidar`);
+
+        //Coloca-se uma fun��o an�nima ou seja {}, pois ele aguarda um callback
+        btn.addEventListener('click', function () {
+            let time = document.querySelector('#ddlTime').value;
+            let msg = '';
+
+            switch (time) {
+                case '':
+                    msg = `Selecione o time primeiro`;
+                    break;               
+                case '1':
+                    msg = `Quase`;
+                    break;
+                case '2':
+                    msg = `Acertou`;
+                    break;
+                case '3':
+                case '4':
+                    msg = `Sem Mundial`;
+                    break;
+
+                // usa o default como um else
+                    //defaul:
+                    //msg = `Errou de novo`;           
+
+
+            }
+                
+
+            document.querySelector(`#saida`).innerHTML = `Resultado: <strong> ${msg} </strong>`;
+            
+
+        })
+        
+
+    </script>
+
+</body>
+</html>

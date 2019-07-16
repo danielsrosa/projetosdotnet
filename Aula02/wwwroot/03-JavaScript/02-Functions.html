@@ -32,9 +32,7 @@
 
     <div class="output"id="resultado"></div>
 
-    <div>Resultado</div>
-
-
+    
     <script>
 
     let text1 = document.getElementById('numero1');
@@ -86,7 +84,21 @@
     function imprimir(valor) {
         //alert(valor);
         console.log(valor);
-        let saida = document.querySelector('output');
+
+        //querySelector - Vai retornar o primeiro elemento que ele encontrar
+        //querySelectorAll - Vai retornar todos em forma de array
+        //usa # quando quer pegar o ID da classe
+            //let saida = document.querySelector('#resultado');
+        //usa "." quando quiser pegar o nome da classe
+        let saida = document.querySelector('.output');
+        //A captura de valor através do Value e somente quando você imputa um dado através de um textarea.. ou input
+        //Como o valor do resultado não foi inputado, usa-se conforme abaixo
+        saida.textContent = valor;
+
+        //Usando interpolação de String
+
+        //Pode usar uma saida com formatação HTML
+        saida.innerHTML = `<em> O valor total é <strong>${valor}</strong> <em>`
     }
 
 

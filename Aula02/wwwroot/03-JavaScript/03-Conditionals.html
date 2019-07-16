@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>03 Condicional IF</title>
+</head>
+<body>
+
+    <label>Selecione o Bi-campeão Mundial</label>
+
+    <select id="ddlTime">
+        <option value="">Selecione...</option>
+        <option value="1">Corinthians...</option>
+        <option value="2">São Paulo...</option>
+        <option value="3">Guarani...</option>
+        <option value="4">Ponte Preta...</option>
+    </select>
+
+    <button id="btnValidar">Validar</button>
+
+    <div id="saida"></div>
+    
+
+    <script>
+        let btn = document.querySelector(`#btnValidar`);
+
+        //Coloca-se uma função anônima ou seja {}, pois ele aguarda um callback
+        btn.addEventListener(`click`, function () {
+            let time = document.querySelector(`#ddlTime`).value;
+            let msg = ``;
+            if (time == ``) {
+                msg = `Selecione o time`;
+            } else if (time == `1`) {
+                msg = `Não é esse`;
+                //Quando usa === ele compara o conteúdo e o tipo
+            } else if (time === `2`) {
+                msg = `Parabéns esta é a resposta certa`;
+            } else if (time == `3`) {
+                msg = `Não é esse`;
+            } else if (time == `4`) {
+                msg = `Não é este`;
+            }
+
+            document.querySelector(`#saida`).innerHTML = `Resultado: <strong> ${msg} </strong>`;
+            
+
+        })
+        
+
+    </script>
+
+</body>
+</html>
