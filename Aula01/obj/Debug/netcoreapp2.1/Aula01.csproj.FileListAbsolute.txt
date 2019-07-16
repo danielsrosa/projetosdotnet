@@ -1,0 +1,14 @@
+C:\Users\danie\source\repos\TreinamentoMCSAWebDev\projetosdotnet\Aula01\bin\Debug\netcoreapp2.1\Aula01.deps.json
+C:\Users\danie\source\repos\TreinamentoMCSAWebDev\projetosdotnet\Aula01\bin\Debug\netcoreapp2.1\Aula01.runtimeconfig.json
+C:\Users\danie\source\repos\TreinamentoMCSAWebDev\projetosdotnet\Aula01\bin\Debug\netcoreapp2.1\Aula01.runtimeconfig.dev.json
+C:\Users\danie\source\repos\TreinamentoMCSAWebDev\projetosdotnet\Aula01\bin\Debug\netcoreapp2.1\Aula01.dll
+C:\Users\danie\source\repos\TreinamentoMCSAWebDev\projetosdotnet\Aula01\bin\Debug\netcoreapp2.1\Aula01.pdb
+C:\Users\danie\source\repos\TreinamentoMCSAWebDev\projetosdotnet\Aula01\obj\Debug\netcoreapp2.1\Aula01.csprojAssemblyReference.cache
+C:\Users\danie\source\repos\TreinamentoMCSAWebDev\projetosdotnet\Aula01\obj\Debug\netcoreapp2.1\Aula01.csproj.CoreCompileInputs.cache
+C:\Users\danie\source\repos\TreinamentoMCSAWebDev\projetosdotnet\Aula01\obj\Debug\netcoreapp2.1\Aula01.RazorAssemblyInfo.cache
+C:\Users\danie\source\repos\TreinamentoMCSAWebDev\projetosdotnet\Aula01\obj\Debug\netcoreapp2.1\Aula01.RazorAssemblyInfo.cs
+C:\Users\danie\source\repos\TreinamentoMCSAWebDev\projetosdotnet\Aula01\obj\Debug\netcoreapp2.1\Aula01.AssemblyInfoInputs.cache
+C:\Users\danie\source\repos\TreinamentoMCSAWebDev\projetosdotnet\Aula01\obj\Debug\netcoreapp2.1\Aula01.AssemblyInfo.cs
+C:\Users\danie\source\repos\TreinamentoMCSAWebDev\projetosdotnet\Aula01\obj\Debug\netcoreapp2.1\Aula01.RazorTargetAssemblyInfo.cache
+C:\Users\danie\source\repos\TreinamentoMCSAWebDev\projetosdotnet\Aula01\obj\Debug\netcoreapp2.1\Aula01.dll
+C:\Users\danie\source\repos\TreinamentoMCSAWebDev\projetosdotnet\Aula01\obj\Debug\netcoreapp2.1\Aula01.pdb

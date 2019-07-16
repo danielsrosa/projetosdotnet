@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>02-Functions</title>
+</head>
+<body>
+
+    <h1>Calculadora</h1>
+
+    <div>
+        <label>
+            Número 1;
+            <input type="number" id="numero1" autofocus />
+        </label>
+    </div>
+
+
+    <div>
+        <label>
+            Número 2;
+            <input type="number" id="numero2" />
+        </label>
+    </div>
+
+    <div>
+        <button onclick="somar()">+</button>
+        <button onclick="subtrair()">-</button>
+        <button onclick="dividir()">/</button>
+        <button onclick="multiplicar()">*</button>
+    </div>
+
+    <div class="output"id="resultado"></div>
+
+    <div>Resultado</div>
+
+
+    <script>
+
+    let text1 = document.getElementById('numero1');
+    let text2 = document.getElementById('numero2');
+
+    function somar() {
+        let num1 = Number(text1.value);
+        let num2 = Number(text2.value);
+            if (isValid(num1, num2)) {
+                let result = num1 + num2;
+                imprimir(result);
+            }
+
+        }
+
+    function subtrair() {
+        let num1 = Number(text1.value);
+        let num2 = Number(text2.value);
+            if (isValid(num1, num2)) {
+                let result = num1 - num2;
+                imprimir(result);
+            }
+        }
+
+
+    function dividir() {
+        let num1 = Number(text1.value);
+        let num2 = Number(text2.value);
+            if (isValid(num1, num2)) {
+                let result = num1 / num2;
+                imprimir(result);
+            }
+        }
+
+    function multiplicar() {
+        let num1 = Number(text1.value);
+        let num2 = Number(text2.value);
+            if (isValid(num1, num2)) {
+                let result = num1 * num2;
+                imprimir(result);
+            }
+        }
+
+    function isValid(n1, n2) {
+        return !isNaN(n1) && !isNaN(n2);
+        }
+
+
+    function imprimir(valor) {
+        //alert(valor);
+        console.log(valor);
+        let saida = document.querySelector('output');
+    }
+
+
+    </script>
+
+
+</body>
+</html>

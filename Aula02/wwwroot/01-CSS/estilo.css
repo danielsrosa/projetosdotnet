@@ -1,0 +1,50 @@
+﻿h1 {
+    text-align: center;
+}
+
+div.container > p {
+    background-color: rgb(0,0,255);
+    /*color: #ffffff;*/
+    color: #0f0;
+}
+
+div.container span {
+    color: #000;
+    background-color: #fff;
+}
+
+body {
+    background-color: darkgray;
+}
+
+
+div.container {
+    color: blue;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(255,255,255);
+}
+
+div.footer {
+    text-align:center;
+    background-color: white;
+    /*border-radius:5px;*/
+    border-radius:25%;
+}
+
+div{
+    /*margin-top:50px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:50px;*/
+    /*margin: 50px 20px 50px 20px;*/
+    margin: 50px auto;
+    /*width: 300px;*/
+    width: 75%;
+   
+    /*Espaçamento interno da DIV*/
+    padding:10px;
+
+    border: 1px solid #000;
+
+}
